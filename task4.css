@@ -1,0 +1,88 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 625%;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+header {
+  background: #5fc0cd;
+  width: 100%;
+  height: 0.88rem;
+  font-size: 0.28rem;
+  line-height: 0.88rem;
+  font-family: "微软雅黑";
+  color: #FFFFFF;
+  text-align: center;
+  position: fixed;
+}
+header .left {
+  float: left;
+  padding-left: 0.3rem;
+ }
+header .right {
+  float: right;
+  padding-right: 0.3rem;
+}
+header p {
+ margin: 0 0.87rem;
+ }
+header a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+main {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  position: absolute;
+  top: 0.88rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+main input {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-top: 0.16rem solid #eff0f4;
+  border-left: 0.01rem solid #eff0f4;
+  border-right: 0.01rem solid #eff0f4;
+}
+.user_name {
+  background: url(iphone.png) no-repeat left;
+  padding-left: 1.5rem;
+}
+.password {
+  background: url(lock.png) no-repeat left;
+  padding-left: 1.5rem;
+}
+main .password {
+  border-bottom: 0.7rem solid #eff0f4;
+}
+main .submit {
+  border-top: 0rem;
+  background: #5FC0CD;
+  line-height: 1rem;
+  font-size: 0.36rem;
+  color: #FFF;
+}
+main .submit:hover {
+  background: #38848a;
+}
+.find {
+  color: #5fc0cd;
+  float: right;
+  margin: 0.18rem 0.22rem 0 0;
+  font-size: 0.32rem;
+}
